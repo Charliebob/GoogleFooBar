@@ -58,15 +58,18 @@ public class FindStrobogrammatic1_N {
     }
     
     public static void main(String[] args){
-//    	List<String> result = new ArrayList<String>();
-//    	result = findStrobogrammatic(4);
-//    	for(String s: result){
-//    		System.out.println(s);
-//    	}
-    	int[] num={2,3,1};
-    	nextPermutation(num);
-    	for(int i: num){
-    		System.out.println(i);
+    	List<String> result = new ArrayList<String>();
+    	result = findStrobogrammatic(5);
+    	for(String s: result){
+    		System.out.println(s);
     	}
+//    	int[] num={2,3,1};
+//    	nextPermutation(num);
+//    	for(int i: num){
+//    		System.out.println(i);
+//    	}
     }
+
 }
+
+
