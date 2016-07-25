@@ -34,8 +34,11 @@ public class MinModifyPalindrome {
 		}
 		return new String(word);
 	}
-	public static void main(String[] args){
-		String s = "SARGAM";
-		System.out.println(minStepModifyPalindrome(s));
-	}
+//	public static void main(String[] args){
+//		String s = "SARGAM";
+//		System.out.println(minStepModifyPalindrome(s));
+//	}
+	
 }
+
+
