@@ -23,7 +23,7 @@ public class FillTheScreen {
 		return result;
 	}
 	public static void main(String[] args){
-		String s = "I am student";
+		String s = "I am a student";
 		System.out.println(fillTheScreen(s, 5, 9));
 	}
 }

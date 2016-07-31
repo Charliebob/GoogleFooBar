@@ -21,12 +21,10 @@ public class PopularElement {
                 r = mid -1;
             }else{
                 int[] left = searchRange(A, l, mid -1, target);
-                result[0] = left[0] == -1 ? mid: left[0];
-                
+                result[0] = left[0] == -1 ? mid: left[0]; 
                 int[] right = searchRange(A, mid+1, r, target);
                 result[1] = right[1] == -1 ? mid: right[1];
                 break;
-               
             }
         }
         return result;
